@@ -1,0 +1,35 @@
+{
+  "name": "dogeon",
+  "version": "0.0.0",
+  "description": "DSON such read much write wow wow wow",
+  "keywords": [
+    "dson",
+    "doge",
+    "json",
+    "read",
+    "wow",
+    "wow",
+    "wow"
+  ],
+  "author": "Kevin Decker <kpdecker@gmail.com> (http://incaseofstairs.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kpdecker/dogeon.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "chai": "^1.9.1",
+    "jison": "^0.4.13"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jison src/dson.yy src/dson.l -o lib/parser.js && ./node_modules/.bin/mocha"
+  }
+}
