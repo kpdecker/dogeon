@@ -1,7 +1,7 @@
 {
   "name": "dogeon",
   "version": "0.0.0",
-  "description": "DSON such read much write wow wow wow",
+  "description": "DSON serialization such read much write wow wow wow",
   "keywords": [
     "dson",
     "doge",
