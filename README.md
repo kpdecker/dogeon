@@ -9,7 +9,7 @@
 ```
 var DSON = require('dogeon');
 DSON.parse('such wow');
-DSON.serialize({});
+DSON.stringify({});
 ```
 
 ## Testing
